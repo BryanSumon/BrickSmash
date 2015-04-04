@@ -1,0 +1,53 @@
+body {
+    background: #D1D1D1;
+}
+
+#wrapper {
+    position: relative;
+    width: 1400px;
+    height: 600px;
+    border: 1px solid #333;
+    margin: 0 auto;
+    background: #FFF;
+    text-align: center;
+}
+
+#canvas {
+    background: url("fond.jpg");
+    background-size: contain;
+    background-position-x: 0px;
+}
+
+#vie {
+    position: absolute;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFF;
+    -webkit-animation: bounce 0.35s ease infinite alternate;
+}
+
+.jouer {
+    visibility: visible;
+    text-align: center;
+    background: #D1D1D1;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px 1px black;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@-webkit-keyframes bounce {
+     from {top: 15px;}
+     to   {top: -10px;}
+}
+
+
+
